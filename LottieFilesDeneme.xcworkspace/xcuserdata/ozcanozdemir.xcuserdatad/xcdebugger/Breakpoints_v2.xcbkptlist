@@ -20,5 +20,133 @@
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5E3C0C26-FE5F-4C2E-B415-0EBF5B5AB5D1"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "LottieFilesDeneme/ui/ViewControllers/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "163"
+            endingLineNumber = "163"
+            landmarkName = "serch(yemekListesi:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "CE2C74F6-F15D-4D89-9840-65B4DDD4745A"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "LottieFilesDeneme/ui/ViewControllers/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "162"
+            endingLineNumber = "162"
+            landmarkName = "serch(yemekListesi:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C9468409-0E3A-4078-A83B-911E802CAF9B"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "LottieFilesDeneme/ui/ViewControllers/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "156"
+            endingLineNumber = "156"
+            landmarkName = "searchBar(_:textDidChange:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "C9468409-0E3A-4078-A83B-911E802CAF9B - 2a66d164b144ea5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "LottieFilesDeneme.ViewController.searchBar(_: __C.UISearchBar, textDidChange: Swift.String) -&gt; ()"
+                  moduleName = "LottieFilesDeneme"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ozcanozdemir/Desktop/YemekSepeti/LottieFilesDeneme/ui/ViewControllers/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "156"
+                  endingLineNumber = "156"
+                  offsetFromSymbolStart = "60">
+               </Location>
+               <Location
+                  uuid = "C9468409-0E3A-4078-A83B-911E802CAF9B - 2a66d164b144ea5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "LottieFilesDeneme.ViewController.searchBar(_: __C.UISearchBar, textDidChange: Swift.String) -&gt; ()"
+                  moduleName = "LottieFilesDeneme"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ozcanozdemir/Desktop/YemekSepeti/LottieFilesDeneme/ui/ViewControllers/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "156"
+                  endingLineNumber = "156"
+                  offsetFromSymbolStart = "64">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D463019D-D1DA-4140-8A17-B5260AD30D5C"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "LottieFilesDeneme/ui/ViewModels/AnasayfaViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "30"
+            endingLineNumber = "30"
+            landmarkName = "yemekAra(aramaKelimesi:delegate:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "D463019D-D1DA-4140-8A17-B5260AD30D5C - d2ae3b7d1c73eef1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "LottieFilesDeneme.AnasayfaViewModel.yemekAra(aramaKelimesi: Swift.String) -&gt; ()"
+                  moduleName = "LottieFilesDeneme"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ozcanozdemir/Desktop/YemekSepeti/LottieFilesDeneme/ui/ViewModels/AnasayfaViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "30"
+                  endingLineNumber = "30"
+                  offsetFromSymbolStart = "104">
+               </Location>
+               <Location
+                  uuid = "D463019D-D1DA-4140-8A17-B5260AD30D5C - 742aede8915a796c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "LottieFilesDeneme.AnasayfaViewModel.yemekAra(aramaKelimesi: Swift.String, delegate: LottieFilesDeneme.SearchDelegate) -&gt; ()"
+                  moduleName = "LottieFilesDeneme"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ozcanozdemir/Desktop/YemekSepeti/LottieFilesDeneme/ui/ViewModels/AnasayfaViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "30"
+                  endingLineNumber = "30"
+                  offsetFromSymbolStart = "64">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
    </Breakpoints>
 </Bucket>

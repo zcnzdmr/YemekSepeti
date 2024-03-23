@@ -12,6 +12,7 @@ import Alamofire
 
 class AnasayfaRepository {
     
+    var asdas = [Yemekler]()
     var yemekListesi = BehaviorSubject<[Yemekler]>(value: [Yemekler]())
     
     var sepetYemekListesi = BehaviorSubject<[YemeklerSepette]>(value: [YemeklerSepette]())
@@ -23,6 +24,7 @@ class AnasayfaRepository {
                 do {
                     let cevap = try JSONDecoder().decode(CrudeCevap.self, from: data)
                     if let liste = cevap.yemekler {
+                        self.asdas = liste
                         self.yemekListesi.onNext(liste)
                     }
                 }catch{
@@ -85,9 +87,21 @@ class AnasayfaRepository {
         }
     }
     
-    func yemekAra(aramaKelimesi:String) {
-        
-
+    func yemekAra(aramaKelimesi: String, delegate:SearchDelegate) {
+        if aramaKelimesi.isEmpty {
+            delegate.serch(yemekListesi: asdas)
+        }else{
+            let filtrelenmisYemekler = asdas.filter { yemek in
+                // Eğer yemek adı nil değilse ve arama kelimesini içeriyorsa true döndür
+                if let isim = yemek.yemek_adi {
+                    return isim.contains(aramaKelimesi)
+                } else {
+                    return false // Eğer yemek adı nil ise, false döndür
+                }
+            }
+            
+            delegate.serch(yemekListesi: filtrelenmisYemekler)
+        }
     }
 
 }

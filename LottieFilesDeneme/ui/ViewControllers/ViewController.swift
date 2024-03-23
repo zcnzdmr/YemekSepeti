@@ -153,7 +153,17 @@ extension ViewController : UICollectionViewDelegate,UICollectionViewDataSource,A
 
 extension ViewController : UISearchBarDelegate {
     func searchBar(_ searchBar: UISearchBar, textDidChange searchText: String) {
-        self.anasayfaViewModelNesnesi.yemekAra(aramaKelimesi: searchText)
+        self.anasayfaViewModelNesnesi.yemekAra(aramaKelimesi: searchText, delegate: self)
     }
 }
 
+extension ViewController: SearchDelegate {
+    func serch(yemekListesi: [Yemekler]) {
+        yemeklerListesi = yemekListesi
+        collectionView.reloadData()
+    }
+}
+
+protocol SearchDelegate {
+    func serch(yemekListesi:[Yemekler])
+}
