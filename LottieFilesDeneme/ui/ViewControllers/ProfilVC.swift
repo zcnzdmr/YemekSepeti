@@ -13,9 +13,11 @@ class ProfilVC: UIViewController {
         super.viewDidLoad()
 
         //tabBarController?.self.navigationItem.title = "Profil"
-        //tabBarController?.self.navigationItem.title = "Profil"
     }
     
+    override func viewWillAppear(_ animated: Bool) {
+        tabBarController?.self.navigationItem.title = "Profil"
+    }
 
     /*
     // MARK: - Navigation
