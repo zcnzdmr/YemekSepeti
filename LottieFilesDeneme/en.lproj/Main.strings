@@ -1,0 +1,27 @@
+
+/* Class = "UITabBarItem"; title = "Anasayfa"; ObjectID = "7aR-tH-We5"; */
+"7aR-tH-We5.title" = "Anasayfa";
+
+/* Class = "UITabBarItem"; title = "Sepetim"; ObjectID = "JP1-TQ-lE5"; */
+"JP1-TQ-lE5.title" = "Sepetim";
+
+/* Class = "UINavigationItem"; title = "Yemek Siparişi"; ObjectID = "K30-YE-s9B"; */
+"K30-YE-s9B.title" = "Yemek Siparişi";
+
+/* Class = "UITabBarItem"; title = "Kurye"; ObjectID = "U8L-SE-p1S"; */
+"U8L-SE-p1S.title" = "Kurye";
+
+/* Class = "UINavigationItem"; title = "Ürün Detayı"; ObjectID = "gCG-sx-Tf4"; */
+"gCG-sx-Tf4.title" = "Ürün Detayı";
+
+/* Class = "UITabBarItem"; title = "Profil"; ObjectID = "jli-Lz-Bof"; */
+"jli-Lz-Bof.title" = "Profil";
+
+/* Class = "UINavigationItem"; title = "Yemek Siparişi"; ObjectID = "l37-bl-CuH"; */
+"l37-bl-CuH.title" = "Yemek Siparişi";
+
+/* Class = "UIBarButtonItem"; title = "x"; ObjectID = "reY-8d-Eft"; */
+"reY-8d-Eft.title" = "x";
+
+/* Class = "UIBarButtonItem"; title = "Adresim"; ObjectID = "rje-in-Y9k"; */
+"rje-in-Y9k.title" = "Adresim";
