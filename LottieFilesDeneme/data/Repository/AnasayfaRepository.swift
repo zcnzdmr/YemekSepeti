@@ -14,9 +14,8 @@ class AnasayfaRepository {
     
     var asdas = [Yemekler]()
     var yemekListesi = BehaviorSubject<[Yemekler]>(value: [Yemekler]())
-    
     var sepetYemekListesi = BehaviorSubject<[YemeklerSepette]>(value: [YemeklerSepette]())
-    
+
     func yemekleriYukle() {
         
         AF.request("http://kasimadalan.pe.hu/yemekler/tumYemekleriGetir.php", method: .get).response { response in

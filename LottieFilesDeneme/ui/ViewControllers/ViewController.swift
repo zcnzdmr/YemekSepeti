@@ -30,27 +30,27 @@ class ViewController: UIViewController {
             self.yemeklerListesi = liste
             DispatchQueue.main.async {
                 self.collectionView.reloadData()
-        }
-    })
+            }
+        })
         
         collectionView.delegate = self
         collectionView.dataSource = self
         searchBarAnasayfa.delegate = self
-
+        
         let nibName = UINib(nibName: "Hucre", bundle: nil)
         self.collectionView.register(nibName, forCellWithReuseIdentifier: "collectionViewCell")
         
         
         //animasyon kodları
         /*var animationView : LottieAnimationView?
-        animationView = .init(name: "Animation1")
-        animationView!.frame = view.bounds
-        
-        animationView?.contentMode = .scaleAspectFit
-        animationView?.loopMode = .loop
-        animationView?.animationSpeed = 0.9
-        view.addSubview(animationView!)
-        animationView?.play()*/
+         animationView = .init(name: "Animation1")
+         animationView!.frame = view.bounds
+         
+         animationView?.contentMode = .scaleAspectFit
+         animationView?.loopMode = .loop
+         animationView?.animationSpeed = 0.9
+         view.addSubview(animationView!)
+         animationView?.play()*/
         
         //Navigation Bar Arkaplan rengi ayarlama ve font ekleyip başlık atma kısmı
         tabBarController?.self.navigationItem.title = "Yemek Siparişim"
@@ -130,8 +130,8 @@ extension ViewController : UICollectionViewDelegate,UICollectionViewDataSource,A
             //hucre icindeki sepete Ekle(+) butonuna tıklanması için tanımlanan protokolü ekleme kısmı
             hucre.anasayfaProtokol = self
             hucre.indexPathX = indexPath
-    }
-
+        }
+        
         return hucre
         
     }

@@ -117,12 +117,12 @@ extension Sepetim : UITableViewDelegate,UITableViewDataSource, sepetimProtokol {
             alert.addAction(iptalAction)
             
             let silAction = UIAlertAction(title: "Sil", style: .destructive) { action in
-//                self.sepetimViewModelNesnesi.yemekSil(sepet_yemek_id: Int(yemek.sepet_yemek_id!)!)
+                //                self.sepetimViewModelNesnesi.yemekSil(sepet_yemek_id: Int(yemek.sepet_yemek_id!)!)
                 
-//                DispatchQueue.main.async{
-//                    self.sepetimViewModelNesnesi.sepeteYemekleriYukle()
-//                    self.toplamFiyatFonk()
-//                }
+                //                DispatchQueue.main.async{
+                //                    self.sepetimViewModelNesnesi.sepeteYemekleriYukle()
+                //                    self.toplamFiyatFonk()
+                //                }
                 self.silCopKutusu(indexPath: indexPath)
             }
             alert.addAction(silAction)
