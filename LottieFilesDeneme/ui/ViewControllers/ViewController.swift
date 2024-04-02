@@ -53,7 +53,6 @@ class ViewController: UIViewController {
          animationView?.play()*/
         
         //Navigation Bar Arkaplan rengi ayarlama ve font ekleyip başlık atma kısmı
-        tabBarController?.self.navigationItem.title = "Yemek Siparişim"
         let apperance = UINavigationBarAppearance()
         
         //bildirim trailing bar button item'i ekleme kısmı
@@ -88,6 +87,10 @@ class ViewController: UIViewController {
                 
             }
         }
+    }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        tabBarController?.self.navigationItem.title = "Yemek Siparişim"
     }
 }
 

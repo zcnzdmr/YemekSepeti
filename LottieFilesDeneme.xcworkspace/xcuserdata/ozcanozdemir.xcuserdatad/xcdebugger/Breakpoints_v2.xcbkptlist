@@ -24,48 +24,16 @@
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
             uuid = "C9468409-0E3A-4078-A83B-911E802CAF9B"
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "LottieFilesDeneme/ui/ViewControllers/ViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "156"
-            endingLineNumber = "156"
+            startingLineNumber = "159"
+            endingLineNumber = "159"
             landmarkName = "searchBar(_:textDidChange:)"
             landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "C9468409-0E3A-4078-A83B-911E802CAF9B - 2a66d164b144ea5"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "LottieFilesDeneme.ViewController.searchBar(_: __C.UISearchBar, textDidChange: Swift.String) -&gt; ()"
-                  moduleName = "LottieFilesDeneme"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/ozcanozdemir/Desktop/YemekSepeti/LottieFilesDeneme/ui/ViewControllers/ViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "156"
-                  endingLineNumber = "156"
-                  offsetFromSymbolStart = "60">
-               </Location>
-               <Location
-                  uuid = "C9468409-0E3A-4078-A83B-911E802CAF9B - 2a66d164b144ea5"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "LottieFilesDeneme.ViewController.searchBar(_: __C.UISearchBar, textDidChange: Swift.String) -&gt; ()"
-                  moduleName = "LottieFilesDeneme"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/ozcanozdemir/Desktop/YemekSepeti/LottieFilesDeneme/ui/ViewControllers/ViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "156"
-                  endingLineNumber = "156"
-                  offsetFromSymbolStart = "64">
-               </Location>
-            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
